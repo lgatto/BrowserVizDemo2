@@ -1,0 +1,17 @@
+exportClasses(BrowserVizDemo2Class)
+
+exportMethods (
+   plot,
+   getSelection,
+   selectPoints
+   )
+
+export(
+   BrowserVizDemo2
+   )
+
+importClassesFrom(methods, character, integer)
+importFrom(methods, new)
+
+import(BrowserViz)
+import(BiocGenerics)
